@@ -1,9 +1,9 @@
-let a = 4
-if(value%2 == 0);{
-console.log("true");
-}else{(console.log = "false");
-}
-
+let a = 2; 
+if(a%2 == 0){ 
+console.log(“Even Number”); 
+} else { 
+console.log(“Odd Number”); 
+} 
 
 
 
