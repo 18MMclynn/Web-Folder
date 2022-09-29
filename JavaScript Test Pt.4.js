@@ -14,5 +14,5 @@ console.log(“Scalene Has All Unequal Sides”);
 }else if(a != c){
 console.log(“Equilateral Not Equal To Scalene”);
 }else{
-("Equal Values");
+("Error");
 }
