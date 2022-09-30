@@ -1,6 +1,3 @@
-let num1 = 1;
-let num2 = 2;
-if(num1+num2){
 let choice = prompt("Type: Add: Subtract: Divide: Multiply: "); 
 if(choice == "Add"){
     let myFirstNumber = Number(prompt("Enter a 1st Number"));
