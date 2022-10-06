@@ -13,16 +13,25 @@ Use a switch statement and the random number to assign rock, paper or scissors t
 computer variable and then use and if statement to see who has won. 
 */
 
-let myVar = 'Rock'
 
-switch(myVAR){
-case 'Rock':
+//2.
+
+
+let userchoice = prompt("Type: Rock, Paper, or Scissors");
+
+let computerguess = '';
+
+switch(x){
+case 1:
+computureguess = "Rock"
 console.log("Rock");
 break;
-case 'Paper':
+case 2:
+computureguess = "Paper"
 console.log("Paper");
 break;
-case 'Scissors':
+case 3:
+computureguess = "Scissors"
 console.log("Scissors");
 default:
 console.log("Error");
@@ -30,7 +39,23 @@ console.log("Error");
 }
 
 
-
+if (userchoice == computureguess){
+console.log("Draw")
+}else if(computureguess == "Rock" && userchoice == "Scissors"){
+console.log("Computure Rock beats User Scisssors")
+}else if(computureguess == "Scissors" && userchoice == "Rock"){
+console.log("User Rock beats Computure Scisssors")
+}else if(computureguess == "Paper" && userchoice == "Rock"){
+console.log("Computure Paper beats User Rock")
+}else if(computureguess == "Rock" && userchoice == "Paper"){
+console.log("User Paper beats Computure Rock")
+}else if(computureguess == "Scissors" && userchoice == "Paper"){
+console.log("Computure Scissors beats User Paper")
+}else if(computureguess == "Paper" && userchoice == "Scissors"){
+console.log("User Scissors beats Computure Paper")
+}
+    
+    
 
 
 
@@ -38,16 +63,21 @@ console.log("Error");
 
 
 //3.
-let myVar = 'A+'
 
-switch(myVAR){
-case 'A+':
-console.log("You got a H1");
+let levelchoice = prompt("Type: HigherLevel or OridinaryLevel");
+
+let gradechoice = prompt("Type: H1-H8");
+
+switch(x){
+case 1:
+gradechoice = "OrdinaryLevel"
+console.log("H1-H8");
 break;
-case 'F-':
-console.log("you got a H8");
+case 2:
+gradechoice = "HigherLevel"
+console.log("H1-H8");
 break;
 default:
-console.log("Grade not recognized");
+console.log("Grade Not Recgonized");
 
 }
