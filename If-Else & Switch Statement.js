@@ -28,4 +28,32 @@ console.log("u is a Vowel")
 
 //2.
 
-let userchoice = prompt("Divide a number with 5");
+let userchoice2 = prompt("Divide a number with 5");
+
+switch(userchoice2){
+case 1:
+}if(userchoice2 == ""){
+console.log("")
+}else if(userchoice2 == ""){
+console.log("")
+}else if(userchoice2 == ""){
+console.log("")
+}else if(userchoice2 == ""){
+console.log("")
+}else if(userchoice2 == ""){
+console.log("")
+}else if(userchoice2 == ""){
+console.log("")
+}else if(userchoice2 == ""){
+console.log("")
+}else if(userchoice2 == ""){
+console.log("")
+}else if(userchoice2 == ""){
+console.log("")
+}else if(userchoice2 == ""){
+console.log("")
+}else{console.log("Error")}
+
+
+
+
