@@ -6,11 +6,11 @@ let gradechoice = prompt("Type: H1-H8");
 
 switch(x){
 case 1:
-gradechoice = "OrdinaryLevel"
+levelchoice = "OrdinaryLevel"
 console.log("H1-H8");
 break;
 case 2:
-gradechoice = "HigherLevel"
+levelchoice = "HigherLevel"
 console.log("H1-H8");
 break;
 default:

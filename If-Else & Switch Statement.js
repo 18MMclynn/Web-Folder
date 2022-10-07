@@ -28,31 +28,18 @@ console.log("u is a Vowel")
 
 //2.
 
-let userchoice2 = prompt("Divide a number with 5");
+let userchoice2 = Number(prompt("Divide a number with 5"));
 
-switch(userchoice2){
-case 1:
-}if(userchoice2 == ""){
+if (userchoice2%5 == 0){
 console.log("")
-}else if(userchoice2 == ""){
-console.log("")
-}else if(userchoice2 == ""){
-console.log("")
-}else if(userchoice2 == ""){
-console.log("")
-}else if(userchoice2 == ""){
-console.log("")
-}else if(userchoice2 == ""){
-console.log("")
-}else if(userchoice2 == ""){
-console.log("")
-}else if(userchoice2 == ""){
-console.log("")
-}else if(userchoice2 == ""){
-console.log("")
-}else if(userchoice2 == ""){
-console.log("")
-}else{console.log("Error")}
+console.log("This NUmber is Divisble with 5")
+}else{console.log("This Number isn't Divisble with 5")}
+
+let userchoice3 = Number(prompt("Divide a number with 11"));
+
+if (userchoice3%11 == 0){
+console.log("This NUmber is Divisble with 11")
+}else{console.log("This Number isn't Divisble with 11")}
 
 
 
