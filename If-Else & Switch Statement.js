@@ -41,6 +41,37 @@ if (userchoice3%11 == 0){
 console.log("This NUmber is Divisble with 11")
 }else{console.log("This Number isn't Divisble with 11")}
 
+//3.
+
+let userchoice4 = prompt("Type a Month to see how many days in it");
+
+switch(userchoice){
+case 1:
+}if(userchoice4 == "January"){
+console.log("This Month has 31 Days")
+}else if(userchoice4 == "Feburary"){
+console.log("This Month has 26-28 Days")
+}else if(userchoice4 == "March"){
+console.log("This Month has 31 Days")
+}else if(userchoice4 == "April"){
+console.log("This Month has 30 Days")
+}else if(userchoice4 == "May"){
+console.log("This Month has 31 Days")
+}else if(userchoice4 == "June"){
+console.log("This Month has 30 Days")
+}else if(userchoice4 == "July"){
+console.log("This Month has 30 Days")
+}else if(userchoice4 == "August"){
+console.log("This Month has 31 Days")
+}else if(userchoice4 == "September"){
+console.log("This Month has 30 Days")
+}else if(userchoice4 == "October"){
+console.log("This Month has 31 Days")
+}else if(userchoice4 == "November"){
+console.log("This Month has 30 Days")
+}else if(userchoice4 == "December"){
+console.log("This Month has 31 Days")
+}else{console.log("Error")}
 
 
 
