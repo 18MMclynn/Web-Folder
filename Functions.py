@@ -1,4 +1,4 @@
-import random
+'''import random'''
 '''
 def myfunction():
     num = int(input("Enter a Number "))
@@ -42,7 +42,8 @@ def check(comp_num, mynum):
 
 check(comp_num, mynum)
 '''
-
+'''
+import random
 def numbers():
     arany = random.randint(5, 20)
     brany = random.randint(5, 20)
@@ -74,3 +75,21 @@ while mynum == 00:
     elif mynum == 2:
         blist = numbers2()
         print(blist)
+'''
+
+mynum = 0
+while mynum == 00: 
+    print("1) Add Name ")
+    print("2) Remove Name ")
+    print("3) Change Name ")
+    mynum = int(input("Choose Program"))
+
+    if mynum == 1:
+        alist = numbers()
+        print("Add a Name")
+    elif mynum == 2:
+        blist = numbers2()
+        print("Remove a Name")
+    elif mynum == 3:
+        clist = numbers3()
+        print("Change a Name")
