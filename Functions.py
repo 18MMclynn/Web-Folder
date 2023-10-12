@@ -76,20 +76,132 @@ while mynum == 00:
         blist = numbers2()
         print(blist)
 '''
+namelist = ["red"]
+    
+def addingname():
+    addname = input("Add a name")
+    return addname
 
-mynum = 0
-while mynum == 00: 
+def deletename():
+    removename = imput("remove a name")
+    return removename
+
+def changename():
+    migratename = input("vchange a namw")
+    return migratename
+
+#print(namelist)
+   
+   
+   
+   
+   
+'''
+inputt = 0
+while inputt == 00: 
     print("1) Add Name ")
     print("2) Remove Name ")
     print("3) Change Name ")
-    mynum = int(input("Choose Program"))
+    print("?) any other number to end program")
+    mynum = int(input("Choose your Program"))
 
     if mynum == 1:
-        alist = numbers()
-        print("Add a Name")
+        alist = addingnames()
+        namelist.append(alist)
+        print("You choose to add a name" , alist)
+        print("Your list now like")
+        print("\n", namelist)
+        print("\n \n")
+        mynum = 0
+        
     elif mynum == 2:
-        blist = numbers2()
-        print("Remove a Name")
+        alist = deletename()
+        namelist.remove(alist)
+        print("You choose to remove a name" , alist)
+        print("Your list now like")
+        print("\n", namelist)
+        print("\n \n")
+        mynum = 0
+        
     elif mynum == 3:
-        clist = numbers3()
-        print("Change a Name")
+        alist = changename()
+        namelist.(alist)
+        replacename = input("Replace the name with")
+        print("You choose to change a name" , alist, "into" , replacename)
+        print("Your list now like")
+        print("\n", namelist)
+        print("\n \n")
+        mynum = 0 
+    
+print(namelist)
+'''
+
+
+namelist = ["red","blu"]
+def addingname(addname):
+    namelist.append(addname)
+def deletename(removename):
+    namelist.remove(removename)
+def changename(migratename,replacename,namelist):
+    z = namelist.index(migratename) 
+    namelist[z] = replacename
+    
+inputt = 0
+while inputt == 0: 
+    print("1) Add name ")
+    print("2) Remove name ")
+    print("3) change name ")
+    print("?) any other number to end program ")
+    mynum = int(input("Choose your program \n  " ))    
+    if mynum == 1:
+        print(namelist)
+        addname = input("Add a name ")
+        addingname(addname)
+        print(namelist)      
+    elif mynum == 2:
+        print(namelist)
+        removename = input("remove a name ")
+        deletename(removename)
+        print(namelist)     
+    elif mynum == 3:
+        print(namelist)
+        migratename = input("change a name ")
+        replacename = input("Replace the name with ")
+        changename(migratename,replacename,namelist)
+        print("you chose to change the name" , migratename , "into" , replacename )
+        print("your list now looks like")
+        print("\n", namelist)   
+        mynum = 0
+    else:
+        break
+    
+z = namelist.index(migratename) 
+    namelist[z] = replacename
+def addfile():
+    f=open("Salaries.csv",'a')
+    f.write(input("Add your name "))
+    f.write(" , ")
+    f.write(input("Add salary amount "))
+    print("\n")
+    f.write("\n")
+    f.close()
+def viewrecords():
+    f=open("Salaries.csv",'r')
+    z = f.read()
+    print(z)
+    f.close()
+    
+inputt = 0
+while inputt == 0:
+    print("1) Add to file ")
+    print("2) View All records ")
+    print("3) Quit Program ", "\n")
+    mynum = int(input("Put in a number "))
+    if mynum == 1:
+        addfile()
+    elif mynum == 2:
+        viewrecords()
+    elif mynum == 3:
+        break
+    else:
+        print("please select value 3 to exit program")
